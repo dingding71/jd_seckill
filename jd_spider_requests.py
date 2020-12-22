@@ -39,7 +39,7 @@ class JdSeckill(object):
     def wait_some_time(self):
         time.sleep(random.randint(100, 300) / 1000)
 
-    def seckill_by_proc_pool(self, work_count=5):
+    def seckill_by_proc_pool(self, work_count=6):
         """
         多进程进行抢购
         work_count：进程数量
