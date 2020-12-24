@@ -329,9 +329,11 @@ class JdSeckill(object):
                 success_message = "抢购成功，订单号:{}, 总价:{}, 电脑端付款链接:{}".format(order_id, total_money, pay_url)
                 send_wechat(success_message)
             return True
-        else:
-            logger.info('抢购失败，返回信息:{}'.format(resp_json))
-            if global_config.getRaw('messenger', 'enable') == 'true':
-                error_message = '抢购失败，返回信息:{}'.format(resp_json)
-                send_wechat(error_message)
-            return False
+        # else:
+        #     logger.info('抢购失败，返回信息:{}'.format(resp_json))
+        #     if global_config.getRaw('messenger', 'enable') == 'true':
+        #         error_message = '抢购失败，返回信息:{}'.format(resp_json)
+        #         send_wechat(error_message)
+        #     return False
+        logger.info('抢购失败，返回信息:{}'.format(resp_json))
+        return False
