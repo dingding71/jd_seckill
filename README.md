@@ -97,11 +97,3 @@
 #### 4.运行main.py 
 根据提示选择相应功能即可
 
-## 打赏
-要是客官抢到了茅台，心情好，请我喝一杯咖啡好不好:)  
-![收款二维码](https://github.com/huanghyw/jd_seckill/blob/master/resource/payment_code.png)
-
-
-## 感谢
-##### 非常感谢原作者 https://github.com/zhou-xiaojun/jd_mask 提供的代码
-##### 也非常感谢 https://github.com/wlwwu/jd_maotai 进行的优化
